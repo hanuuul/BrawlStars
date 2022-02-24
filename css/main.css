@@ -1,0 +1,104 @@
+body{
+    height: 100vh;
+    background-image: url('../images/brawlstars_bg1.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+.container{
+    padding: 50px;
+    
+}
+.brawlers{
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 40px 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.brawler{
+    background-color: rgb(173, 199, 81);
+    width: 82px;
+    height: 84px;
+    margin: 4px;
+    border-radius: 10px;
+    border: 3px solid #fff;
+    transform: skew(-14deg);
+    transition: transform .1s, background-color .6s;
+    overflow: hidden;
+}
+.brawler:hover{
+    border-color: rgb(243, 203, 72);
+    background-color: rgb(212, 100, 66);
+    transform: skew(-14deg) scale(1.25);
+    z-index: 1;
+}
+.brawler > .image{
+    width: 140%;
+    height: 100%;
+    background-position: center;
+    background-size: 93px;
+    background-repeat: no-repeat;
+    transform: skewX(14deg) translate(-20px);
+}
+.brawler:nth-child(1) > .image{background-image: url('../images/brawler1.png');}
+.brawler:nth-child(2) > .image{background-image: url('../images/brawler2.png');}
+.brawler:nth-child(3) > .image{background-image: url('../images/brawler3.png');}
+.brawler:nth-child(4) > .image{background-image: url('../images/brawler4.png');}
+.brawler:nth-child(5) > .image{background-image: url('../images/brawler5.png');}
+.brawler:nth-child(6) > .image{background-image: url('../images/brawler6.png');}
+.brawler:nth-child(7) > .image{background-image: url('../images/brawler7.png');}
+.brawler:nth-child(8) > .image{background-image: url('../images/brawler8.png');}
+.brawler:nth-child(9) > .image{background-image: url('../images/brawler9.png');}
+.brawler:nth-child(10) > .image{background-image: url('../images/brawler10.png');}
+
+.brawler:nth-child(11) > .image{background-image: url('../images/brawler11.png');}
+.brawler:nth-child(12) > .image{background-image: url('../images/brawler12.png');}
+.brawler:nth-child(13) > .image{background-image: url('../images/brawler13.png');}
+.brawler:nth-child(14) > .image{background-image: url('../images/brawler14.png');}
+.brawler:nth-child(15) > .image{background-image: url('../images/brawler15.png');}
+.brawler:nth-child(16) > .image{background-image: url('../images/brawler16.png');}
+.brawler:nth-child(17) > .image{background-image: url('../images/brawler17.png');}
+.brawler:nth-child(18) > .image{background-image: url('../images/brawler18.png');}
+.brawler:nth-child(19) > .image{background-image: url('../images/brawler19.png');}
+.brawler:nth-child(20) > .image{background-image: url('../images/brawler20.png');}
+
+.brawler:nth-child(21) > .image{background-image: url('../images/brawler21.png');}
+.brawler:nth-child(22) > .image{background-image: url('../images/brawler22.png');}
+.brawler:nth-child(23) > .image{background-image: url('../images/brawler23.png');}
+.brawler:nth-child(24) > .image{background-image: url('../images/brawler24.png');}
+.brawler:nth-child(25) > .image{background-image: url('../images/brawler25.png');}
+.brawler:nth-child(26) > .image{background-image: url('../images/brawler26.png');}
+.brawler:nth-child(27) > .image{background-image: url('../images/brawler27.png');}
+.brawler:nth-child(28) > .image{background-image: url('../images/brawler28.png');}
+.brawler:nth-child(29) > .image{background-image: url('../images/brawler29.png');}
+.brawler:nth-child(30) > .image{background-image: url('../images/brawler30.png');}
+
+.brawler:nth-child(31) > .image{background-image: url('../images/brawler31.png');}
+.brawler:nth-child(32) > .image{background-image: url('../images/brawler32.png');}
+.brawler:nth-child(33) > .image{background-image: url('../images/brawler33.png');}
+.brawler:nth-child(34) > .image{background-image: url('../images/brawler34.png');}
+.brawler:nth-child(35) > .image{background-image: url('../images/brawler35.png');}
+.brawler:nth-child(36) > .image{background-image: url('../images/brawler36.png');}
+.brawler:nth-child(37) > .image{background-image: url('../images/brawler37.png');}
+.brawler:nth-child(38) > .image{background-image: url('../images/brawler38.png');}
+.brawler:nth-child(39) > .image{background-image: url('../images/brawler39.png');}
+.brawler:nth-child(40) > .image{background-image: url('../images/brawler40.png');}
+
+.brawler:nth-child(41) > .image{background-image: url('../images/brawler41.png');}
+.brawler:nth-child(42) > .image{background-image: url('../images/brawler42.png');}
+.brawler:nth-child(43) > .image{background-image: url('../images/brawler43.png');}
+.brawler:nth-child(44) > .image{background-image: url('../images/brawler44.png');}
+.brawler:nth-child(45) > .image{background-image: url('../images/brawler45.png');}
+
+.logo{
+    max-width: 300px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+.logo > img{
+    width: 100%;
+}
